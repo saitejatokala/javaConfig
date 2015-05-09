@@ -16,7 +16,9 @@ public class HelloWorldRestController {
     public Message message(@PathVariable String player) {
  
         Message msg = new Message(player, "Hello " + player);
+        
         return msg;
+        
     }
  
 }
