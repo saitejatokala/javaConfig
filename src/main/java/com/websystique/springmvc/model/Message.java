@@ -1,4 +1,4 @@
-package com.websystique.springmvc.domain;
+package com.websystique.springmvc.model;
  
 public class Message {
  
